@@ -16,7 +16,7 @@ public class TC1_GetRequest_All
 		.when()
 		.get("http://localhost:3000/India");
 		
-		System.out.println("The status code is ");
+		System.out.println("Status code is ");
 		System.out.println(store.statusCode());
 		System.out.println("The body data is ");
 		System.out.println(store.asString());
